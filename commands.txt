@@ -1,0 +1,2 @@
+ls | grep 'file' | xargs rm
+for i in {1..10}; do touch "file_$i.txt"; done
