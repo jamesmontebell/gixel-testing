@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the file name
-file="random$RANDOM.txt"
+file="file$RANDOM.txt"
 
 # Generate a random number of lines (between 1 and 10 in this example)
-num_lines=$((1 + RANDOM % 10))
+num_lines=$((1 + RANDOM % 50))
 
 # Generate random lines and save them to the file
 for ((i=1; i<=$num_lines; i++))
